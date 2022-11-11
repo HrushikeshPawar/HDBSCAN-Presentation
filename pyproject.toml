@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hdbscan"
+version = "0.1.0"
+description = "A Manim presentation on HDBSCAN clustering."
+authors = ["Hrushikesh Pawar <hrushikeshpawar96@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+manim-editor = "^0.3.8"
+seaborn = "^0.12.1"
+scipy = "^1.9.3"
+sklearn = "^0.0.post1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+loguru = "^0.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
